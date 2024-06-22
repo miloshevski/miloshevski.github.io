@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Libre+Baskerville&family=Rubik+Broken+Fax&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <img src="./slike/logo2.png" class="logo" />
+        <ul id="sidemenu">
+            <li><a href="/index.html">Дома</a></li>
+            <li><a href="/about.html">За мене</a></li>
+            <li><a href="/bio.html">Биографија</a></li>
+            <li><a href="/uspesi.html">Успеси</a></li>
+            <li><a href="/galerija.html">Галерија</a></li>
+            <li><a href="/contact.html">Контакт</a></li>
+          <i class="fa-solid fa-xmark fas" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+      </nav>
+    </div>
+    <div id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+              <p>
+                <i class="fa-regular fa-paper-plane"></i
+                >milosevskialeksandar18@gmail.com
+              </p>
+              <p><i class="fa-solid fa-phone"></i>+389 71 769 736</p>
+              <div class="social-icons">
+                <a href="https://www.instagram.com/ace.milosevski9/"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+                <a href="https://www.facebook.com/profile.php?id=100010833305090"
+                  ><i class="fa-brands fa-square-facebook"></i></i
+                ></a>
+                <a href="https://www.linkedin.com/in/aleksandar-m-a59bb5200/"
+                  ><i class="fa-brands fa-linkedin"></i></i
+                ></a>
+              </div>
+              <a href="./slike/CV-Aleksandar-Miloshevski.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+              <form>
+                <input type="text" name="Name" placeholder="Your Name" required >
+                <input type="text" name="Email" placeholder="Your Email" required >
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                
+                <button type="submit" class="btn btn2">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+  </body>
+</html>
